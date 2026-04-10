@@ -1,131 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> <meta name="google-site-verification" content="mkw08soCUmKKHrVELiKtFeVg8jLO6Wf_ziZjxldWQME" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nasha Mukti Kendra Dehradun – Premium Rehabilitation Center</title> 
-    <style> Branch of Hugs Life Holistic Greater Noida
-        /* Reset & Basic */
-        * { margin:0; padding:0; box-sizing:border-box; }
-        html { scroll-behavior: smooth; }
-        body { font-family: Arial, sans-serif; background:#f6f6f6; }
-
-        /* Header + Nav */
-        header { 
-            background:url('https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
-            height:60vh; display:flex; justify-content:center; align-items:center; color:white; text-shadow:0 4px 8px rgba(0,0,0,0.5);
-            position: relative;
-        }
-        header h1 { font-size: 42px; text-align:center; }
-
-        nav {
-            position: fixed; top:0; width:100%; background:rgba(255,255,255,0.95); 
-            display:flex; justify-content:center; gap:30px; padding:15px 0; box-shadow:0 2px 5px rgba(0,0,0,0.1); z-index:1000;
-        }
-        nav a { text-decoration:none; color:#333; font-weight:600; transition:0.3s; }
-        nav a:hover { color:#0077cc; }
-
-        /* Sections */
-        section { padding:80px 10%; }
-        h2 { font-size:32px; margin-bottom:20px; color:#222; }
-        p { font-size:18px; line-height:1.6; color:#444; }
-
-        /* Boxes */
-        .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px; }
-        .box { background:white; padding:25px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1); transition:0.3s; }
-        .box:hover { transform:translateY(-5px); }
-
-        /* Footer */
-        footer { background:#111; color:white; text-align:center; padding:25px; }
-
-        /* WhatsApp Floating */
-        .whatsapp {
-            position:fixed; right:15px; bottom:15px; 
-            background:#25D366; color:white; padding:12px 18px; 
-            border-radius:50px; font-size:18px; text-decoration:none;
-            box-shadow:0 4px 10px rgba(0,0,0,0.3);
-        }
-
-        /* Section colors (optional) */
-        #about { background:#fdfdfd; }
-        #services { background:#f6f6f6; }
-        #programs { background:#fdfdfd; }
-        #why { background:#f6f6f6; }
-        #contact { background:#fdfdfd; }
-    </style>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nasha Mukti Kendra Dehradun | Hugs Life Holistic</title>
+<meta name="description" content="Premium rehabilitation and de-addiction centre in Dehradun. Expert treatment for drug addiction, alcoholism, and behavioral disorders. Call +91 7303729913.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
-<nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#programs">Programs</a>
-    <a href="#why">Why HLH</a>
-    <a href="#contact">Contact</a>
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-main">Hugs Life Holistic</span>
+      <span class="logo-sub">Nasha Mukti Kendra · Dehradun</span>
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="programs.html">Programs</a></li>
+      <li><a href="why-hlh.html">Why HLH</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" class="nav-cta">Contact Us</a></li>
+    </ul>
+  </div>
 </nav>
 
-<header id="home">
-    <h1>Nasha Mukti Kendra Dehradun<br>Premium Rehabilitation & Wellness Centre</h1>
-</header>
-
-<section id="about">
-    <h2>About Us</h2>
-    <p>
-        We are a premium rehabilitation center in Dehradun dedicated to helping individuals recover 
-        from drug addiction, alcoholism, substance abuse, and behavioral challenges.  
-        Our center follows holistic, scientific, and compassionate treatment approaches.
-        <br><br>
-        Branch: <b>Hugs Life Holistic – Greater Noida</b>
-    </p>
-</section>
-
-<section id="services">
-    <h2>Our Services</h2>
-    <div class="grid">
-        <div class="box"><h3>Detoxification</h3><p>Safe, monitored detox under medical guidance.</p></div>
-        <div class="box"><h3>Psychiatric Support</h3><p>Expert mental health evaluation and treatment.</p></div>
-        <div class="box"><h3>Counseling & Therapy</h3><p>1-on-1 sessions, behavioral therapy, family counseling.</p></div>
-        <div class="box"><h3>Yoga & Meditation</h3><p>Daily yoga, breathing work, stress healing practices.</p></div>
-        <div class="box"><h3>Rehabilitation Stay</h3><p>Clean rooms, supportive environment, safe monitoring.</p></div>
-        <div class="box"><h3>Aftercare Program</h3><p>Post-recovery follow-ups & relapse prevention.</p></div>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <span class="hero-badge">Dehradun · Uttarakhand</span>
+    <h1 class="hero-title">A New Beginning<br><em>Starts Here</em></h1>
+    <p class="hero-desc">Premium rehabilitation & de-addiction centre offering holistic, compassionate, and medically supervised recovery for individuals and families.</p>
+    <div class="hero-actions">
+      <a href="contact.html" class="btn-primary">Get Help Today</a>
+      <a href="programs.html" class="btn-outline">View Programs</a>
     </div>
-</section>
-
-<section id="programs">
-    <h2>Treatment Programs</h2>
-    <div class="grid">
-        <div class="box"><h3>Alcohol De-addiction</h3><p>Complete treatment from detox to full recovery.</p></div>
-        <div class="box"><h3>Drug De-addiction</h3><p>Therapy + structured program for all substances.</p></div>
-        <div class="box"><h3>Behavioral Disorders</h3><p>Anxiety, depression, anger & emotional issues.</p></div>
-        <div class="box"><h3>Teen Rehabilitation</h3><p>Special care for young adults & teenagers.</p></div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">24×7</span><span class="stat-label">Medical Support</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Confidential</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">Holistic</span><span class="stat-label">Treatment Approach</span></div>
     </div>
+  </div>
+  <div class="hero-scroll">Scroll to explore ↓</div>
 </section>
 
-<section id="why">
-    <h2>Why HLH Difference / Choose Us?</h2>
-    <div class="grid">
-        <div class="box"><h3>24×7 Trained Staff</h3><p>Medical + psychiatric team always available.</p></div>
-        <div class="box"><h3>Premium Facility</h3><p>Calm, peaceful environment for recovery.</p></div>
-        <div class="box"><h3>Holistic Healing</h3><p>Mind, body, and emotional wellbeing focus.</p></div>
-        <div class="box"><h3>Affordable Packages</h3><p>Premium care at reasonable cost.</p></div>
+<!-- MARQUEE STRIP -->
+<div class="marquee-strip">
+  <div class="marquee-track">
+    <span>Drug De-addiction</span><span class="dot">◆</span>
+    <span>Alcohol Recovery</span><span class="dot">◆</span>
+    <span>Psychiatric Support</span><span class="dot">◆</span>
+    <span>Yoga & Meditation</span><span class="dot">◆</span>
+    <span>Teen Rehabilitation</span><span class="dot">◆</span>
+    <span>Family Counselling</span><span class="dot">◆</span>
+    <span>Aftercare Planning</span><span class="dot">◆</span>
+    <span>Drug De-addiction</span><span class="dot">◆</span>
+    <span>Alcohol Recovery</span><span class="dot">◆</span>
+    <span>Psychiatric Support</span><span class="dot">◆</span>
+    <span>Yoga & Meditation</span><span class="dot">◆</span>
+    <span>Teen Rehabilitation</span><span class="dot">◆</span>
+    <span>Family Counselling</span><span class="dot">◆</span>
+    <span>Aftercare Planning</span><span class="dot">◆</span>
+  </div>
+</div>
+
+<!-- INTRO SECTION -->
+<section class="section intro-section">
+  <div class="container two-col">
+    <div class="col-text fade-in">
+      <span class="section-tag">Who We Are</span>
+      <h2 class="section-title">Healing Lives with<br>Compassion & Science</h2>
+      <p>Nasha Mukti Kendra Dehradun is a premium rehabilitation centre dedicated to helping individuals break free from addiction and reclaim their lives. Our expert team combines medical science with holistic healing practices.</p>
+      <p>With a branch under <strong>Hugs Life Holistic</strong> in Greater Noida, we extend our care across North India — providing structured recovery programs that treat the body, mind, and spirit together.</p>
+      <a href="about.html" class="btn-text">Learn More About Us →</a>
     </div>
+    <div class="col-cards fade-in">
+      <div class="info-card">
+        <div class="info-icon">🏥</div>
+        <h3>Medical Excellence</h3>
+        <p>Qualified doctors and psychiatrists guide every step of the detox and recovery journey.</p>
+      </div>
+      <div class="info-card">
+        <div class="info-icon">🌿</div>
+        <h3>Holistic Healing</h3>
+        <p>Yoga, meditation, and counselling support complete wellness — not just abstinence.</p>
+      </div>
+      <div class="info-card">
+        <div class="info-icon">🛡️</div>
+        <h3>Safe Environment</h3>
+        <p>Peaceful, monitored facilities designed for comfort, dignity, and long-term recovery.</p>
+      </div>
+      <div class="info-card">
+        <div class="info-icon">❤️</div>
+        <h3>Family Involved</h3>
+        <p>We include families in the healing process through dedicated counselling sessions.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section id="contact">
-    <h2>Contact Us</h2>
-    <p>
-        📍 Dehradun, Uttarakhand <br>
-        📞 Call: <b>+91 7303729913</b>  <br>
-        📧 Email: Hugslifeholistic@gmail.com
-    </p>
+<!-- SERVICES OVERVIEW -->
+<section class="section services-overview">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">What We Offer</span>
+      <h2 class="section-title">Our Core Services</h2>
+      <p class="section-desc">Comprehensive care from the first day of detox to long-term aftercare support.</p>
+    </div>
+    <div class="services-grid fade-in">
+      <div class="service-card">
+        <div class="service-num">01</div>
+        <h3>Detoxification</h3>
+        <p>Safe, medically supervised detox to manage withdrawal symptoms with 24×7 clinical care.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">02</div>
+        <h3>Psychiatric Support</h3>
+        <p>Expert mental health evaluation, diagnosis, and ongoing psychiatric treatment.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">03</div>
+        <h3>Counselling & Therapy</h3>
+        <p>Individual, group, and family therapy using evidence-based behavioural approaches.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">04</div>
+        <h3>Yoga & Meditation</h3>
+        <p>Daily yoga, pranayama, and mindfulness to restore inner calm and mental resilience.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">05</div>
+        <h3>Residential Stay</h3>
+        <p>Clean, comfortable accommodation in a secure and nurturing environment.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">06</div>
+        <h3>Aftercare Program</h3>
+        <p>Post-recovery follow-ups, relapse prevention planning, and ongoing support.</p>
+      </div>
+    </div>
+    <div class="center fade-in" style="margin-top:2.5rem">
+      <a href="services.html" class="btn-primary">See All Services</a>
+    </div>
+  </div>
 </section>
 
-<footer>
-    © 2026 Nasha Mukti Kendra Dehradun | All Rights Reserved
+<!-- WHY CHOOSE STRIP -->
+<section class="section why-strip">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">Why Choose Us</span>
+      <h2 class="section-title">The HLH Difference</h2>
+    </div>
+    <div class="why-grid fade-in">
+      <div class="why-item">
+        <div class="why-icon">🕐</div>
+        <h4>24×7 Trained Staff</h4>
+        <p>Medical and psychiatric team available round the clock.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-icon">🏡</div>
+        <h4>Premium Facility</h4>
+        <p>A calm, peaceful environment designed for recovery.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-icon">🔒</div>
+        <h4>Full Confidentiality</h4>
+        <p>Complete privacy for every patient and their family.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-icon">💰</div>
+        <h4>Affordable Packages</h4>
+        <p>Premium care at fair and transparent pricing.</p>
+      </div>
+    </div>
+    <div class="center fade-in" style="margin-top:2rem">
+      <a href="why-hlh.html" class="btn-outline-dark">Read More About Our Approach</a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-banner">
+  <div class="container">
+    <div class="cta-content fade-in">
+      <h2>Ready to Take the First Step?</h2>
+      <p>Our counsellors are available 24×7. All inquiries are completely confidential.</p>
+      <div class="cta-actions">
+        <a href="tel:+917303729913" class="btn-white">📞 Call +91 7303729913</a>
+        <a href="https://wa.me/917303729913" class="btn-outline-white" target="_blank">💬 WhatsApp Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">Hugs Life Holistic</div>
+      <p>Nasha Mukti Kendra Dehradun<br>Premium Rehabilitation & Wellness Centre</p>
+      <p style="margin-top:0.5rem;font-size:0.85rem;opacity:0.6">Branch: Hugs Life Holistic – Greater Noida</p>
+    </div>
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="why-hlh.html">Why HLH</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-links">
+      <h4>Programs</h4>
+      <ul>
+        <li><a href="programs.html">Alcohol De-addiction</a></li>
+        <li><a href="programs.html">Drug De-addiction</a></li>
+        <li><a href="programs.html">Behavioural Disorders</a></li>
+        <li><a href="programs.html">Teen Rehabilitation</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <p>📍 Dehradun, Uttarakhand</p>
+      <p>📞 <a href="tel:+917303729913">+91 7303729913</a></p>
+      <p>📧 <a href="mailto:Hugslifeholistic@gmail.com">Hugslifeholistic@gmail.com</a></p>
+      <a href="https://wa.me/917303729913" class="whatsapp-btn" target="_blank">💬 Chat on WhatsApp</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Nasha Mukti Kendra Dehradun | Hugs Life Holistic. All Rights Reserved.</p>
+  </div>
 </footer>
 
-<a class="whatsapp" href="https://wa.me/917303729913" target="_blank">WhatsApp</a>
+<a href="https://wa.me/917303729913" class="floating-wa" target="_blank" title="WhatsApp Us">💬</a>
 
+<script src="assets/main.js"></script>
 </body>
 </html>
